@@ -1,0 +1,87 @@
+:root {
+  color: #1f2937;
+  background: #f3f5f9;
+  font-family: "PingFang SC", "Microsoft YaHei", "Helvetica Neue", Arial, sans-serif;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body,
+#app {
+  width: 100%;
+  min-height: 100%;
+  margin: 0;
+}
+
+body {
+  background: #f3f5f9;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.page {
+  padding: 24px 28px 40px;
+}
+
+.page-header {
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+  gap: 16px;
+  margin-bottom: 20px;
+}
+
+.page-title {
+  margin: 0;
+  font-size: 24px;
+  font-weight: 700;
+  letter-spacing: 0.5px;
+}
+
+.page-subtitle {
+  margin: 8px 0 0;
+  color: #7a8496;
+  font-size: 13px;
+}
+
+.card {
+  border: 1px solid #e8ebf2;
+  border-radius: 14px;
+  background: #fff;
+  box-shadow: 0 8px 24px rgba(31, 41, 55, 0.04);
+}
+
+.filter-card {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  align-items: center;
+  padding: 18px 20px;
+  margin-bottom: 16px;
+}
+
+.table-card {
+  padding: 8px 16px 18px;
+}
+
+.empty-block {
+  padding: 56px 0;
+}
+
+.muted {
+  color: #8b95a7;
+}
+
+@media (max-width: 900px) {
+  .page {
+    padding: 18px;
+  }
+}
